@@ -48,3 +48,4 @@ schedule.every().day.at("18:15").do(tweet_video, video_paths[0])
 while True:
     schedule.run_pending()
     time.sleep(1)
+heroku create myapp --buildpack heroku/python
